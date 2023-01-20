@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    #image {
+	    display: none;
+	   }
+</style>
+</head>
+<body>
+<div>
+<h1>SPICE TABLE RESTAURANT</h1>
+<h3>Click on the button to see image</h3>
+<img id="image" src="C:\Users\DELL\Downloads\restuarent.jpg"
+alt="GFG image" />
+</div>
+
+<button type="button"
+onclick="show()" id="btnID">
+Show Image
+</button>
+
+<script>
+function show() {
+
+	document.getElementById('image').style.display = "block";
+
+       document.getElementById('btnID').style.display = "none";
+		}
+</script>
+</body>
+
+</html>
+
